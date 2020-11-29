@@ -1,40 +1,28 @@
-v 3
-file . "componente_main_testbench.vhd" "20201129211158.000" "20201129181811.907":
-  entity componente_main_testbench at 1( 0) + 0 on 99;
-  architecture tb_arch of componente_main_testbench at 7( 118) + 0 on 100;
-file . "componente_sinal.vhd" "20201129184056.000" "20201129181254.657":
-  entity componente_sinal at 1( 0) + 0 on 87;
-  architecture arquitetura_sinal of componente_sinal at 15( 291) + 0 on 88;
-file . "componente_contador_testbench.vhd" "20201129174624.000" "20201129144626.463":
-  entity componente_contador_testbench at 1( 0) + 0 on 77;
-  architecture tb_arch of componente_contador_testbench at 7( 126) + 0 on 78;
-file . "componente_nand.vhd" "20201129150424.000" "20201129120510.560":
-  entity componente_nand at 1( 0) + 0 on 47;
-  architecture arquitetura_nand of componente_nand at 12( 199) + 0 on 48;
-file . "componente_inv.vhd" "20201129150434.000" "20201129120455.907":
-  entity componente_inv at 1( 0) + 0 on 43;
-  architecture arquitetura_inv of componente_inv at 11( 170) + 0 on 44;
-file . "test.vhd" "20201129125010.000" "20201129095015.356":
-  entity jk at 1( 0) + 0 on 15;
-  architecture virat of jk at 15( 260) + 0 on 16;
-file . "componente_sistema.vhd" "20201129150350.000" "20201129120518.413":
-  entity componente_sistema at 1( 0) + 0 on 49;
-  architecture arquitetura_sistema of componente_sistema at 14( 270) + 0 on 50;
-file . "componente_sistema_testbench.vhd" "20201129150404.000" "20201129120523.596":
-  entity componente_sistema_testbench at 1( 0) + 0 on 51;
-  architecture tb_arch of componente_sistema_testbench at 7( 124) + 0 on 52;
-file . "componente_and.vhd" "20201129150418.000" "20201129120505.968":
-  entity componente_and at 1( 0) + 0 on 45;
-  architecture arquitetura_and of componente_and at 12( 197) + 0 on 46;
-file . "componente_contador.vhd" "20201129173726.000" "20201129181244.024":
-  entity componente_contador at 1( 0) + 0 on 85;
-  architecture arquitetura_contador of componente_contador at 13( 249) + 0 on 86;
-file . "componente_jk.vhd" "20201129211758.000" "20201129181807.469":
-  entity componente_jk at 3( 386) + 0 on 97;
-  architecture virat of componente_jk at 17( 668) + 0 on 98;
-file . "componente_sinal_testbench.vhd" "20201129184618.000" "20201129154641.203":
-  entity componente_sinal_testbench at 1( 0) + 0 on 83;
-  architecture tb_arquitetura_sinal of componente_sinal_testbench at 7( 120) + 0 on 84;
-file . "componente_main.vhd" "20201129211346.000" "20201129181348.473":
-  entity componente_main at 1( 0) + 0 on 89;
-  architecture arquitetura_main of componente_main at 14( 287) + 0 on 90;
+v 4
+file . "componente_main_testbench.vhd" "315e311421d00f7b8e8df55aa8f63fb76f6abe48" "20201129232403.945":
+  entity componente_main_testbench at 1( 0) + 0 on 41;
+  architecture arch of componente_main_testbench at 7( 112) + 0 on 42;
+file . "componente_main.vhd" "2c4be31a4fde8ce295a9b108190c41c699731a9a" "20201129232358.959":
+  entity componente_main at 1( 0) + 0 on 39;
+  architecture arquitetura_main of componente_main at 14( 293) + 0 on 40;
+file . "componente_contador.vhd" "767c41278c71e618aecd2c6d7682c5da72b02a8b" "20201129230405.685":
+  entity componente_contador at 1( 0) + 0 on 25;
+  architecture arquitetura_contador of componente_contador at 13( 237) + 0 on 26;
+file . "componente_mux.vhd" "e7ed9d52287a983a4ef5970012931219e9ba7f29" "20201129230239.798":
+  entity componente_mux at 1( 0) + 0 on 21;
+  architecture arch of componente_mux at 17( 310) + 0 on 22;
+file . "componente_contador_decadico.vhd" "d80bb9fc0ebb9a970c2dc96f175f61a3b8f2ea75" "20201129230250.764":
+  entity componente_contador_decadico at 1( 0) + 0 on 23;
+  architecture arch of componente_contador_decadico at 11( 260) + 0 on 24;
+file . "componente_dividir_clock_10.vhd" "3654ea8ad22c6e18ee4c3a5afcc76e40cfab22f1" "20201129230212.909":
+  entity componente_dividir_clock_10 at 1( 0) + 0 on 17;
+  architecture arch of componente_dividir_clock_10 at 10( 211) + 0 on 18;
+file . "componente_contador_decadico_testbench.vhd" "369d5168c3450c195a038b4b3d3b579259ab0e50" "20201129223847.743":
+  entity componente_contador_decadico_testbench at 1( 0) + 0 on 15;
+  architecture arch of componente_contador_decadico_testbench at 7( 138) + 0 on 16;
+file . "componente_jk.vhd" "6c33cf9c33f69232b263c166afed715c69b30402" "20201129230221.914":
+  entity componente_jk at 2( 91) + 0 on 19;
+  architecture virat of componente_jk at 16( 359) + 0 on 20;
+file . "componente_sinal.vhd" "07a3b9beb2c72bc65ce99b0ce67a8a37d25c092d" "20201129230415.499":
+  entity componente_sinal at 1( 0) + 0 on 27;
+  architecture arquitetura_sinal of componente_sinal at 15( 277) + 0 on 28;
