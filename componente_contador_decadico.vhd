@@ -1,6 +1,5 @@
 LIBRARY IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-USE IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity componente_contador_decadico is
     Port ( sys_clk: in std_logic;
