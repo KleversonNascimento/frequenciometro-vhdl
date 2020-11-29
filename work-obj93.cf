@@ -1,0 +1,28 @@
+v 3
+file . "componente_jk.vhd" "20201129174122.000" "20201129144126.384":
+  entity componente_jk at 3( 153) + 0 on 69;
+  architecture virat of componente_jk at 17( 435) + 0 on 70;
+file . "componente_contador.vhd" "20201129173726.000" "20201129144133.470":
+  entity componente_contador at 1( 0) + 0 on 71;
+  architecture arquitetura_contador of componente_contador at 13( 249) + 0 on 72;
+file . "componente_and.vhd" "20201129150418.000" "20201129120505.968":
+  entity componente_and at 1( 0) + 0 on 45;
+  architecture arquitetura_and of componente_and at 12( 197) + 0 on 46;
+file . "componente_sistema_testbench.vhd" "20201129150404.000" "20201129120523.596":
+  entity componente_sistema_testbench at 1( 0) + 0 on 51;
+  architecture tb_arch of componente_sistema_testbench at 7( 124) + 0 on 52;
+file . "componente_sistema.vhd" "20201129150350.000" "20201129120518.413":
+  entity componente_sistema at 1( 0) + 0 on 49;
+  architecture arquitetura_sistema of componente_sistema at 14( 270) + 0 on 50;
+file . "test.vhd" "20201129125010.000" "20201129095015.356":
+  entity jk at 1( 0) + 0 on 15;
+  architecture virat of jk at 15( 260) + 0 on 16;
+file . "componente_inv.vhd" "20201129150434.000" "20201129120455.907":
+  entity componente_inv at 1( 0) + 0 on 43;
+  architecture arquitetura_inv of componente_inv at 11( 170) + 0 on 44;
+file . "componente_nand.vhd" "20201129150424.000" "20201129120510.560":
+  entity componente_nand at 1( 0) + 0 on 47;
+  architecture arquitetura_nand of componente_nand at 12( 199) + 0 on 48;
+file . "componente_contador_testbench.vhd" "20201129174624.000" "20201129144626.463":
+  entity componente_contador_testbench at 1( 0) + 0 on 77;
+  architecture tb_arch of componente_contador_testbench at 7( 126) + 0 on 78;
