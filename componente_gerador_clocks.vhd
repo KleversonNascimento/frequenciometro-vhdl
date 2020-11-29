@@ -9,29 +9,23 @@ entity componente_gerador_clocks is
      );
 end componente_gerador_clocks;
 
-architecture arch of componente_gerador_clocks is
-    component componente_jk
-        port(
-            j : in std_logic; 
-            k : in std_logic; 
-            clk : in std_logic; 
-            reset : in std_logic; 
-            q : out std_logic; 
-            qb : out std_logic
-        );
+architecture comportament of componente_gerador_clocks is
+    component componente_dividir_clock_10
+        port ( clk, reset: in std_logic;
+        clock_out: out std_logic);
     end component;
 
-    signal trash, clk_1_state, clk_2_state, clk_3_state, clk_4_state, clk_5_state: std_logic;
+    signal clk_1_state, clk_2_state, clk_3_state, clk_4_state, clk_5_state: std_logic;
 begin
-    jk1: componente_jk port map (j => '1', k => '1', clk => clk_base, reset => reset, q => clk_1_state, qb => trash);
-    jk2: componente_jk port map (j => '1', k => '1', clk => clk_1_state, reset => reset, q => clk_2_state, qb => trash);
-    jk3: componente_jk port map (j => '1', k => '1', clk => clk_2_state, reset => reset, q => clk_3_state, qb => trash);
-    jk4: componente_jk port map (j => '1', k => '1', clk => clk_3_state, reset => reset, q => clk_4_state, qb => trash);
-    jk5: componente_jk port map (j => '1', k => '1', clk => clk_4_state, reset => reset, q => clk_5_state, qb => trash);
+    clk1: componente_dividir_clock_10 port map(clk => clk_base, reset => reset, clock_out => clk_1_state);
+    clk2: componente_dividir_clock_10 port map(clk => clk_1_state, reset => reset, clock_out => clk_2_state);
+    clk3: componente_dividir_clock_10 port map(clk => clk_2_state, reset => reset, clock_out => clk_3_state);
+    clk4: componente_dividir_clock_10 port map(clk => clk_3_state, reset => reset, clock_out => clk_4_state);
+    clk5: componente_dividir_clock_10 port map(clk => clk_4_state, reset => reset, clock_out => clk_5_state);
 
     clk_1 <= clk_1_state;
     clk_2 <= clk_2_state; 
     clk_3 <= clk_3_state;
     clk_4 <= clk_4_state; 
     clk_5 <= clk_5_state;
-end arch;
+end comportament;
