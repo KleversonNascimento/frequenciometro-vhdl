@@ -1,7 +1,10 @@
 v 3
-file . "componente_sinal.vhd" "20201129184056.000" "20201129154058.542":
-  entity componente_sinal at 1( 0) + 0 on 79;
-  architecture arquitetura_sinal of componente_sinal at 15( 291) + 0 on 80;
+file . "componente_main_testbench.vhd" "20201129211158.000" "20201129181811.907":
+  entity componente_main_testbench at 1( 0) + 0 on 99;
+  architecture tb_arch of componente_main_testbench at 7( 118) + 0 on 100;
+file . "componente_sinal.vhd" "20201129184056.000" "20201129181254.657":
+  entity componente_sinal at 1( 0) + 0 on 87;
+  architecture arquitetura_sinal of componente_sinal at 15( 291) + 0 on 88;
 file . "componente_contador_testbench.vhd" "20201129174624.000" "20201129144626.463":
   entity componente_contador_testbench at 1( 0) + 0 on 77;
   architecture tb_arch of componente_contador_testbench at 7( 126) + 0 on 78;
@@ -23,12 +26,15 @@ file . "componente_sistema_testbench.vhd" "20201129150404.000" "20201129120523.5
 file . "componente_and.vhd" "20201129150418.000" "20201129120505.968":
   entity componente_and at 1( 0) + 0 on 45;
   architecture arquitetura_and of componente_and at 12( 197) + 0 on 46;
-file . "componente_contador.vhd" "20201129173726.000" "20201129144133.470":
-  entity componente_contador at 1( 0) + 0 on 71;
-  architecture arquitetura_contador of componente_contador at 13( 249) + 0 on 72;
-file . "componente_jk.vhd" "20201129174122.000" "20201129144126.384":
-  entity componente_jk at 3( 153) + 0 on 69;
-  architecture virat of componente_jk at 17( 435) + 0 on 70;
+file . "componente_contador.vhd" "20201129173726.000" "20201129181244.024":
+  entity componente_contador at 1( 0) + 0 on 85;
+  architecture arquitetura_contador of componente_contador at 13( 249) + 0 on 86;
+file . "componente_jk.vhd" "20201129211758.000" "20201129181807.469":
+  entity componente_jk at 3( 386) + 0 on 97;
+  architecture virat of componente_jk at 17( 668) + 0 on 98;
 file . "componente_sinal_testbench.vhd" "20201129184618.000" "20201129154641.203":
   entity componente_sinal_testbench at 1( 0) + 0 on 83;
   architecture tb_arquitetura_sinal of componente_sinal_testbench at 7( 120) + 0 on 84;
+file . "componente_main.vhd" "20201129211346.000" "20201129181348.473":
+  entity componente_main at 1( 0) + 0 on 89;
+  architecture arquitetura_main of componente_main at 14( 287) + 0 on 90;
