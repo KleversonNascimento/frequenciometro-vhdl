@@ -22,7 +22,7 @@ begin
    begin 
       if (reset = '0') then 
          m := '0'; 
-      elsif (falling_edge (clk)) then 
+      elsif (rising_edge (clk)) then 
          if (j /= k) then
             m := j; 
          elsif (j = '1' and k = '1') then 
